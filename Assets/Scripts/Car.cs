@@ -5,19 +5,19 @@ using UnityEngine;
 public class Car : MonoBehaviour
 {
     private float speed = 0f;
-    private float maxSpeed = 3f;
-    private float acceleration = 1f;
-    private float deceleration = 1f;
+    private float maxSpeed = 1.5f;
+    private float acceleration = 0.6f;
+    private float deceleration = 0.2f;
 
-    public float moveSpeed = 5f;
     public float rotateSpeed = 5f;
 
 
     private void Update()
     {
+        Debug.Log(speed);
         if ((Input.GetKey("down")) && (speed < maxSpeed))
             speed = speed - acceleration * Time.deltaTime;
-        else if ((Input.GetKey("up")) && (speed > -maxSpeed))
+        else if ((Input.GetKey("up")) && (speed < maxSpeed))
             speed = speed + acceleration * Time.deltaTime;
         else
         {
