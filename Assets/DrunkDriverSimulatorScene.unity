@@ -2177,7 +2177,6 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4407244999693362, guid: f17dfaf4c25d15e41a1cfe4f7597bcd6, type: 2}
       propertyPath: m_LocalPosition.x
-<<<<<<< HEAD
       value: 10.64
       objectReference: {fileID: 0}
     - target: {fileID: 4407244999693362, guid: f17dfaf4c25d15e41a1cfe4f7597bcd6, type: 2}
@@ -2402,7 +2401,7 @@ Prefab:
     - target: {fileID: 1223002772083156, guid: f17dfaf4c25d15e41a1cfe4f7597bcd6, type: 2}
       propertyPath: m_TagString
       value: Enemy
-=======
+
       value: -10.13
       objectReference: {fileID: 0}
     - target: {fileID: 4407244999693362, guid: f17dfaf4c25d15e41a1cfe4f7597bcd6, type: 2}
@@ -2447,13 +2446,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4407244999693362, guid: f17dfaf4c25d15e41a1cfe4f7597bcd6, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.46
->>>>>>> d7b26ed981ca0a4293aa343e83ce750ca82ba3f3
+      value: -0.46 d7b26ed981ca0a4293aa343e83ce750ca82ba3f3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f17dfaf4c25d15e41a1cfe4f7597bcd6, type: 2}
   m_IsPrefabAsset: 0
-<<<<<<< HEAD
 --- !u!1 &1502323575 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1223002772083156, guid: f17dfaf4c25d15e41a1cfe4f7597bcd6,
@@ -2749,9 +2746,7 @@ MonoBehaviour:
   rotateSpeed: 10
   canvas: {fileID: 84171041}
 --- !u!1001 &1627392607
-=======
 --- !u!1001 &957986082
->>>>>>> d7b26ed981ca0a4293aa343e83ce750ca82ba3f3
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
