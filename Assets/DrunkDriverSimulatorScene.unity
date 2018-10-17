@@ -172,6 +172,7 @@ GameObject:
   - component: {fileID: 1622904920}
   - component: {fileID: 1622904919}
   - component: {fileID: 1622904923}
+  - component: {fileID: 1622904924}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -267,6 +268,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1622904924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1622904918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54485d4dbe8be94458ba2224ae0553f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  rotateSpeed: 10
 --- !u!1 &1711607996
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,6 +385,10 @@ Prefab:
     - target: {fileID: 471770, guid: 26419c6407d63bc4abd79bf3d120f522, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 183252, guid: 26419c6407d63bc4abd79bf3d120f522, type: 2}
+      propertyPath: m_Name
+      value: Landscape
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26419c6407d63bc4abd79bf3d120f522, type: 2}
