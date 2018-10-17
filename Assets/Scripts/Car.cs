@@ -5,11 +5,10 @@ using UnityEngine;
 public class Car : MonoBehaviour
 {
     private float speed = 0f;
-    private float maxSpeed = 3f;
-    private float acceleration = 1f;
-    private float deceleration = 1f;
-
-    public float moveSpeed = 5f;
+    public float maxSpeed = 3f;
+    public float acceleration = 1f;
+    public float deceleration = 1f;
+    
     public float rotateSpeed = 5f;
 
 
